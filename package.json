@@ -1,0 +1,25 @@
+{
+  "name": "mongo-task",
+  "version": "1.0.0",
+  "description": "A to-do app with CRUD features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenkeluke/Mongo-task.git"
+  },
+  "author": "Kenkeluke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenkeluke/Mongo-task/issues"
+  },
+  "homepage": "https://github.com/Kenkeluke/Mongo-task#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2",
+    "nodemon": "^2.0.18"
+  }
+}
