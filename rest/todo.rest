@@ -1,0 +1,27 @@
+get http://localhost:9000/ HTTP/1.1
+
+###
+POST http://localhost:9000/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "Title": "Market day",
+    "Description":"A to do list for all the stuff I need to get ready for my market day run"
+}
+
+
+###
+get http://localhost:9000/62c7188bdc5da67ee23576ec HTTP/1.1
+
+
+###
+PUT http://localhost:9000/62c70614aae40b2a8b57d2de HTTP/1.1
+Content-Type: application/json
+
+{
+    "Title": "Swimming meet",
+    "Description":"A to do list for all the stuff I need to get ready for my swim meet"
+}
+
+###
+DELETE  http://localhost:9000/62c70614aae40b2a8b57d2de HTTP/1.1

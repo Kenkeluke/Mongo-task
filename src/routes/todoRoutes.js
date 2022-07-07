@@ -7,7 +7,12 @@
  const controller = require('../controller/todoControllers');
 
  router
- .get("/", controller.allToDos);
+ .get("/", controller.allToDos)
+ .post("/", controller.createTodo)
+ .get("/:id", controller.OneToDo)
+ .put("/:id", controller.updateTodo)
+ .delete("/:id", controller.deleteTodo);
+ 
 
 
 
