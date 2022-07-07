@@ -4,8 +4,8 @@
   "description": "A to-do app with CRUD features",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,8 @@
     "express": "^4.18.1",
     "mongoose": "^6.4.2",
     "nodemon": "^2.0.18"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
   }
 }
